@@ -90,5 +90,10 @@ namespace POS_204_oracle
         {
             AddPage2Tab(new uc.uc_product(), "PRODUCT");
         }
+
+        private void btnSale_Click(object sender, EventArgs e)
+        {
+            AddPage2Tab(new uc.uc_Sales(), "SALES");
+        }
     }
 }

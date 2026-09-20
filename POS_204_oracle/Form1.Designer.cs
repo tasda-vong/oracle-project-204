@@ -30,22 +30,22 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbluser = new System.Windows.Forms.Label();
-            this.btnMin = new System.Windows.Forms.PictureBox();
-            this.btnExit = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnSale = new Krypton.Toolkit.KryptonButton();
+            this.kryptonButton1 = new Krypton.Toolkit.KryptonButton();
             this.btnProduct = new Krypton.Toolkit.KryptonButton();
             this.btnSuppler = new Krypton.Toolkit.KryptonButton();
             this.btnCategory = new Krypton.Toolkit.KryptonButton();
             this.btnUser = new Krypton.Toolkit.KryptonButton();
             this.MainTab = new Krypton.Navigator.KryptonNavigator();
-            this.kryptonButton1 = new Krypton.Toolkit.KryptonButton();
-            this.btnSale = new Krypton.Toolkit.KryptonButton();
+            this.btnMin = new System.Windows.Forms.PictureBox();
+            this.btnExit = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainTab)).BeginInit();
             this.MainTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -73,32 +73,6 @@
             this.lbluser.Text = "user";
             this.lbluser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // btnMin
-            // 
-            this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMin.Image = global::POS_204_oracle.Properties.Resources.icons8_minimize_window_48;
-            this.btnMin.Location = new System.Drawing.Point(629, 1);
-            this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(26, 25);
-            this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMin.TabIndex = 1;
-            this.btnMin.TabStop = false;
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExit.Image = global::POS_204_oracle.Properties.Resources.icons8_close_window_48;
-            this.btnExit.Location = new System.Drawing.Point(657, 1);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(24, 25);
-            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnExit.TabIndex = 0;
-            this.btnExit.TabStop = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
@@ -113,6 +87,47 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(122, 422);
             this.panel2.TabIndex = 1;
+            // 
+            // btnSale
+            // 
+            this.btnSale.ButtonStyle = Krypton.Toolkit.ButtonStyle.Custom3;
+            this.btnSale.Location = new System.Drawing.Point(7, 299);
+            this.btnSale.Name = "btnSale";
+            this.btnSale.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlackDarkMode;
+            this.btnSale.Size = new System.Drawing.Size(109, 52);
+            this.btnSale.StateCommon.Back.Color1 = System.Drawing.Color.SteelBlue;
+            this.btnSale.StateCommon.Back.Color2 = System.Drawing.Color.SteelBlue;
+            this.btnSale.StateCommon.Border.Color1 = System.Drawing.Color.SteelBlue;
+            this.btnSale.StateCommon.Border.Color2 = System.Drawing.Color.SteelBlue;
+            this.btnSale.StateCommon.Border.Rounding = 7F;
+            this.btnSale.StateCommon.Content.LongText.Color1 = System.Drawing.Color.White;
+            this.btnSale.StateCommon.Content.LongText.Color2 = System.Drawing.Color.White;
+            this.btnSale.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.btnSale.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.btnSale.TabIndex = 7;
+            this.btnSale.Values.DropDownArrowColor = System.Drawing.Color.Empty;
+            this.btnSale.Values.Text = "Sales";
+            this.btnSale.Click += new System.EventHandler(this.btnSale_Click);
+            // 
+            // kryptonButton1
+            // 
+            this.kryptonButton1.ButtonStyle = Krypton.Toolkit.ButtonStyle.Custom3;
+            this.kryptonButton1.Location = new System.Drawing.Point(7, 183);
+            this.kryptonButton1.Name = "kryptonButton1";
+            this.kryptonButton1.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlackDarkMode;
+            this.kryptonButton1.Size = new System.Drawing.Size(109, 52);
+            this.kryptonButton1.StateCommon.Back.Color1 = System.Drawing.Color.SteelBlue;
+            this.kryptonButton1.StateCommon.Back.Color2 = System.Drawing.Color.SteelBlue;
+            this.kryptonButton1.StateCommon.Border.Color1 = System.Drawing.Color.SteelBlue;
+            this.kryptonButton1.StateCommon.Border.Color2 = System.Drawing.Color.SteelBlue;
+            this.kryptonButton1.StateCommon.Border.Rounding = 7F;
+            this.kryptonButton1.StateCommon.Content.LongText.Color1 = System.Drawing.Color.White;
+            this.kryptonButton1.StateCommon.Content.LongText.Color2 = System.Drawing.Color.White;
+            this.kryptonButton1.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.kryptonButton1.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.kryptonButton1.TabIndex = 6;
+            this.kryptonButton1.Values.DropDownArrowColor = System.Drawing.Color.Empty;
+            this.kryptonButton1.Values.Text = "Customer";
             // 
             // btnProduct
             // 
@@ -211,45 +226,31 @@
             this.MainTab.TabIndex = 2;
             this.MainTab.Text = "MainTab";
             // 
-            // kryptonButton1
+            // btnMin
             // 
-            this.kryptonButton1.ButtonStyle = Krypton.Toolkit.ButtonStyle.Custom3;
-            this.kryptonButton1.Location = new System.Drawing.Point(7, 183);
-            this.kryptonButton1.Name = "kryptonButton1";
-            this.kryptonButton1.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlackDarkMode;
-            this.kryptonButton1.Size = new System.Drawing.Size(109, 52);
-            this.kryptonButton1.StateCommon.Back.Color1 = System.Drawing.Color.SteelBlue;
-            this.kryptonButton1.StateCommon.Back.Color2 = System.Drawing.Color.SteelBlue;
-            this.kryptonButton1.StateCommon.Border.Color1 = System.Drawing.Color.SteelBlue;
-            this.kryptonButton1.StateCommon.Border.Color2 = System.Drawing.Color.SteelBlue;
-            this.kryptonButton1.StateCommon.Border.Rounding = 7F;
-            this.kryptonButton1.StateCommon.Content.LongText.Color1 = System.Drawing.Color.White;
-            this.kryptonButton1.StateCommon.Content.LongText.Color2 = System.Drawing.Color.White;
-            this.kryptonButton1.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.kryptonButton1.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.kryptonButton1.TabIndex = 6;
-            this.kryptonButton1.Values.DropDownArrowColor = System.Drawing.Color.Empty;
-            this.kryptonButton1.Values.Text = "Customer";
+            this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.Image = global::POS_204_oracle.Properties.Resources.icons8_minimize_window_48;
+            this.btnMin.Location = new System.Drawing.Point(629, 1);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(26, 25);
+            this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMin.TabIndex = 1;
+            this.btnMin.TabStop = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // btnSale
+            // btnExit
             // 
-            this.btnSale.ButtonStyle = Krypton.Toolkit.ButtonStyle.Custom3;
-            this.btnSale.Location = new System.Drawing.Point(7, 299);
-            this.btnSale.Name = "btnSale";
-            this.btnSale.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlackDarkMode;
-            this.btnSale.Size = new System.Drawing.Size(109, 52);
-            this.btnSale.StateCommon.Back.Color1 = System.Drawing.Color.SteelBlue;
-            this.btnSale.StateCommon.Back.Color2 = System.Drawing.Color.SteelBlue;
-            this.btnSale.StateCommon.Border.Color1 = System.Drawing.Color.SteelBlue;
-            this.btnSale.StateCommon.Border.Color2 = System.Drawing.Color.SteelBlue;
-            this.btnSale.StateCommon.Border.Rounding = 7F;
-            this.btnSale.StateCommon.Content.LongText.Color1 = System.Drawing.Color.White;
-            this.btnSale.StateCommon.Content.LongText.Color2 = System.Drawing.Color.White;
-            this.btnSale.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.btnSale.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.btnSale.TabIndex = 7;
-            this.btnSale.Values.DropDownArrowColor = System.Drawing.Color.Empty;
-            this.btnSale.Values.Text = "Sales";
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.Image = global::POS_204_oracle.Properties.Resources.icons8_close_window_48;
+            this.btnExit.Location = new System.Drawing.Point(657, 1);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(24, 25);
+            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnExit.TabIndex = 0;
+            this.btnExit.TabStop = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
@@ -263,11 +264,11 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MainTab)).EndInit();
             this.MainTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             this.ResumeLayout(false);
 
         }

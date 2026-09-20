@@ -100,8 +100,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CustomerControllery.cs" />
     <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\SaleDetailController.cs" />
     <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\SalesController.cs" />
     <Compile Include="Controller\SupplierController.cs" />
     <Compile Include="Controller\userController.cs" />
     <Compile Include="Form1.cs">
@@ -136,6 +139,12 @@
     <Compile Include="uc\uc_product.Designer.cs">
       <DependentUpon>uc_product.cs</DependentUpon>
     </Compile>
+    <Compile Include="uc\uc_Sales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc\uc_Sales.Designer.cs">
+      <DependentUpon>uc_Sales.cs</DependentUpon>
+    </Compile>
     <Compile Include="uc\uc_user.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="uc\uc_product.resx">
       <DependentUpon>uc_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc\uc_Sales.resx">
+      <DependentUpon>uc_Sales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="uc\uc_user.resx">
       <DependentUpon>uc_user.cs</DependentUpon>
@@ -204,6 +216,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-trash-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

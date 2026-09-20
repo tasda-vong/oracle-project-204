@@ -39,6 +39,7 @@ C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.Pro
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.uc.ucCategory.resources
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.uc.ucSupplier.resources
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.uc.uc_product.resources
+C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.uc.uc_Sales.resources
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.uc.uc_user.resources
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.csproj.GenerateResource.cache
 C:\Mac\Home\Documents\POS_204_oracle\POS_204_oracle\obj\Debug\POS_204_oracle.csproj.CoreCompileInputs.cache

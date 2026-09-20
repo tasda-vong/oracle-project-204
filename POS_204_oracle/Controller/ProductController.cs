@@ -29,6 +29,22 @@ namespace POS_204_oracle.Controller
             return dt;
         }
 
+
+        public DataTable GetByCateID(int category_id)
+        {
+            dt = new DataTable();
+            cmd = new OracleCommand();
+
+
+            cmd.Connection = Program.con;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from v_product where category_id =:category_id";
+            cmd.Parameters.Add(new OracleParameter("category_id", category_id));
+            da.SelectCommand = cmd;
+            da.Fill(dt);
+            return dt;
+        }
+
         public int Insert(String product_name, int category_id, int supplier_id,int user_id,int is_stock,Decimal product_cost, decimal product_price, int product_status)
         {
             int x = 0;
